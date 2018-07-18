@@ -8,6 +8,6 @@ function updateObjectWithKeyAndValue (recipe, key, value) {
   return newRecipe;
 }
 function destructivelyDeleteObjectWithKeyAndValue(recipe, key) {
-  delete recipe[key];
+  delete recipe.key;
   return recipe;
 }
