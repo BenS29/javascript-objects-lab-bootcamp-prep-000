@@ -4,5 +4,5 @@ function destructivelyUpdateObjectWithKeyAndValue (recipe, ingredient, amount) {
   return recipe;
 }
 function updateObjectWithKeyAndValue (recipe, ingredient, amount) {
-  
+  Object.assign({}, {})
 }
